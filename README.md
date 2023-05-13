@@ -8,7 +8,7 @@
 - cd into the folder created
 - run npm i to install all the necessary dependencies in package.json
 - npm i axios react-router-dom react-hot-toast sass
-  sass is for advanced styling using css
+  //sass is for advanced styling using css
 - npm run dev
 - now you have setup a basic react app on your localhost
 
@@ -21,3 +21,11 @@
 - Delete pre-existing assets folder
 - <title>ToDo App</title> in index.html
 - added all the styles from git repo
+
+## Frontend
+
+- add this in App.jsx
+  import {BrowserRouter as Router} from "react-router-dom"
+- add route "/"
+- create /src/pages
+- create Home.jsx
